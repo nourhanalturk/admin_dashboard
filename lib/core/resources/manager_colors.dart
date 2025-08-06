@@ -7,8 +7,8 @@ class ManagerColors {
   static const Color black = Colors.black;
   static const Color transparent = Colors.transparent;
 
-  static const Color primaryColor = Color(0xFF1C2341);
-  static const secondaryColor = Color(0xFF8B94BC);
+  static const Color primaryColor = Color(0xFF4233B6);
+  static const secondaryColor = Color(0xFF5041BC);
   static const greenColor = Color(0xFF6AC259);
   static const redColor = Color(0xFFE92E30);
   static const grayColor = Color(0xFFC1C1C1);
@@ -25,4 +25,6 @@ class ManagerColors {
   static const Color lightGreen = Color(0xff00D9CD);
   static const Color darkBackground = Color(0xff171531);
   static const Color lightPurple = Color(0xffAEB8FF);
+  static const Color darkOrange = Color(0xffFF7F57);
+  static const Color yellow = Color(0xe8ffc629);
 }

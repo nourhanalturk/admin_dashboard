@@ -100,4 +100,18 @@ class ManagerStrings {
   static String get messageViaInstagram => tr('messageViaInstagram');
 
   static String get messageViaEmail => tr('messageViaEmail');
+
+  static String get doctorHunt => tr('doctorHunt');
+
+  static String get home => tr('home');
+
+  static String get chat => tr('chat');
+
+  static String get viewAppointments => tr('viewAppointments');
+
+  static String get editAvailableTimes => tr('editAvailableTimes');
+
+  static String get patientsData => tr('patientsData');
+
+  static String get settings => tr('settings');
 }

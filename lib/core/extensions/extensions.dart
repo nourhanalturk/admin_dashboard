@@ -116,3 +116,15 @@ extension OnNullBool on String? {
     }
   }
 }
+
+/// On Null Image to handle the null safety for image from env(UnKnownType)
+/// This is used to handle the null safety for image paths
+   extension OnNullImage on String? {
+  String onNullImage() {
+    if (this == null) {
+      return 'assets/images/user.png';
+    } else {
+      return this!;
+    }
+  }
+}

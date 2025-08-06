@@ -1,6 +1,4 @@
 import 'package:dio/dio.dart';
-import 'package:flutter/foundation.dart';
-
 import '../../config/constants/constants.dart';
 import '../../config/constants/env_constants.dart';
 import '../../config/di/di.dart';
