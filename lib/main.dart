@@ -19,10 +19,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      initialRoute: Routes.login,
+      initialRoute: Routes.dashboard,
       onGenerateRoute: RouteGenerator.getRoute,
       debugShowCheckedModeBanner: dotenv.env[EnvConstants.debug].onNullBool(),
-      // home: LoginView(),
     );
   }
 }

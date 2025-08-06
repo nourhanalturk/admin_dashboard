@@ -7,6 +7,8 @@ class ManagerWidth {
   static double w4 = 4.0;
   static double w5 = 5.0;
   static double w6 = 6.0;
+  static double w7 = 7.0;
+  static double w8 = 8.0;
   static double w15 = 15.0;
   static double w20 = 20.0;
   static double w50 = 50.0;
