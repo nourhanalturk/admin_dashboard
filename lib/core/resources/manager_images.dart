@@ -8,4 +8,7 @@ class ManagerImages {
   static const String chat = '$imagesPath/chat.svg';
   static const String data = '$imagesPath/data.svg';
   static const String home = '$imagesPath/home.svg';
+  static const String notification = '$imagesPath/notification.svg';
+  static const String search = '$imagesPath/search_icon.svg';
+  static const String doctorDuty = '$imagesPath/doctor-duty-time.png';
 }

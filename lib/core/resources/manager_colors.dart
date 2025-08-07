@@ -27,4 +27,8 @@ class ManagerColors {
   static const Color lightPurple = Color(0xffAEB8FF);
   static const Color darkOrange = Color(0xffFF7F57);
   static const Color yellow = Color(0xe8ffc629);
+  static const Color lightPurple2 = Color(0xFFD3CBFB);
+  static const Color lightBlue = Color(0xFF54657E);
+
+
 }
