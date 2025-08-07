@@ -114,4 +114,17 @@ class ManagerStrings {
   static String get patientsData => tr('patientsData');
 
   static String get settings => tr('settings');
+
+  static String get overView => tr('overView');
+
+  static String get search => tr('search');
+
+  static String get nearestAppointments => tr('nearestAppointments');
+
+  static String get noUpcomingAppointmentsYet =>
+      tr('noUpcomingAppointmentsYet');
+  static String get patientsWhoBooked => tr('patientsWhoBooked');
+  static String get patientsWithUpcomingAppointments => tr('patientsWithUpcomingAppointments');
+  static String get patientsWhoMessagedDoctor => tr('patientsWhoMessagedDoctor');
+
 }
