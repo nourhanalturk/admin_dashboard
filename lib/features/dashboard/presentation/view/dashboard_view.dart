@@ -14,7 +14,6 @@ import 'package:tender/core/resources/manager_styles.dart';
 import 'package:tender/core/resources/manager_width.dart';
 import 'package:tender/core/widgets/text_field.dart';
 import 'package:tender/features/dashboard/presentation/controller/dashboard_controller.dart';
-import 'package:tender/features/dashboard/presentation/view/widgets/custom_pie_chart.dart';
 import 'package:tender/features/dashboard/presentation/view/widgets/responsive_pie_charts.dart';
 import 'package:tender/features/dashboard/presentation/view/widgets/side_bar.dart';
 import '../../../../core/widgets/responsive.dart';
@@ -240,61 +239,59 @@ class DashboardView extends StatelessWidget {
                                               padding: EdgeInsets.all(
                                                 ManagerWidth.w8,
                                               ),
-                                              child: Expanded(
-                                                child: Row(
-                                                  children: [
-                                                    CircleAvatar(
-                                                      radius: ManagerRadius.r25,
-                                                      backgroundImage:
-                                                          NetworkImage(
-                                                        model.dependentImageUrl,
-                                                      ),
+                                              child: Row(
+                                                children: [
+                                                  CircleAvatar(
+                                                    radius: ManagerRadius.r25,
+                                                    backgroundImage:
+                                                        NetworkImage(
+                                                      model.dependentImageUrl,
                                                     ),
-                                                    SizedBox(
-                                                      width: size.width *
-                                                          ManagerOpacity.op0_01,
+                                                  ),
+                                                  SizedBox(
+                                                    width: size.width *
+                                                        ManagerOpacity.op0_01,
+                                                  ),
+                                                  Text(
+                                                    model.dependentName,
+                                                    style: getBoldTextStyle(
+                                                      fontSize:
+                                                       Responsive.isDesktop(context) ? ManagerFontSize
+                                                           .s18
+                                                           : ManagerFontSize.s12,
+                                                      color: ManagerColors
+                                                          .lightBlue,
                                                     ),
-                                                    Text(
-                                                      model.dependentName,
-                                                      style: getBoldTextStyle(
-                                                        fontSize:
-                                                         Responsive.isDesktop(context) ? ManagerFontSize
-                                                             .s18
-                                                             : ManagerFontSize.s12,
-                                                        color: ManagerColors
-                                                            .lightBlue,
-                                                      ),
+                                                  ),
+                                                  SizedBox(
+                                                    width: size.width *
+                                                        ManagerOpacity.op0_07,
+                                                  ),
+                                                  Text(
+                                                    DateFormat(
+                                                            'dd MMM yyyy, hh:mm a')
+                                                        .format(DateTime
+                                                            .parse(model
+                                                                .appointmentTime)),
+                                                    style: getBoldTextStyle(
+                                                      fontSize:
+                                                      Responsive.isDesktop(context) ? ManagerFontSize
+                                                          .s18
+                                                          : ManagerFontSize.s14,
+                                                      color:
+                                                          ManagerColors.black,
                                                     ),
-                                                    SizedBox(
-                                                      width: size.width *
-                                                          ManagerOpacity.op0_07,
+                                                  ),
+                                                  const Spacer(),
+                                                  IconButton(
+                                                    onPressed: () {},
+                                                    icon: const Icon(
+                                                      Icons.settings,
+                                                      color: ManagerColors
+                                                          .lightBlue,
                                                     ),
-                                                    Text(
-                                                      DateFormat(
-                                                              'dd MMM yyyy, hh:mm a')
-                                                          .format(DateTime
-                                                              .parse(model
-                                                                  .appointmentTime)),
-                                                      style: getBoldTextStyle(
-                                                        fontSize:
-                                                        Responsive.isDesktop(context) ? ManagerFontSize
-                                                            .s18
-                                                            : ManagerFontSize.s14,
-                                                        color:
-                                                            ManagerColors.black,
-                                                      ),
-                                                    ),
-                                                    const Spacer(),
-                                                    IconButton(
-                                                      onPressed: () {},
-                                                      icon: const Icon(
-                                                        Icons.settings,
-                                                        color: ManagerColors
-                                                            .lightBlue,
-                                                      ),
-                                                    ),
-                                                  ],
-                                                ),
+                                                  ),
+                                                ],
                                               ),
                                             ),
                                           );
