@@ -1,12 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:tender/features/chats/domain/di/di.dart';
+import 'package:tender/features/chats/presentation/view/chats_view.dart';
 import 'package:tender/features/dashboard/domain/di/di.dart';
 import 'package:tender/features/dashboard/presentation/view/dashboard_view.dart';
+import 'package:tender/features/messages/domain/di/di.dart';
+import '../../features/messages/presentation/view/messages_view.dart';
 import '../resources/manager_strings.dart';
 
 /// A class defined for all routes constants
 class Routes {
   static const String login = '/login';
   static const String dashboard = '/dashboard';
+  static const String chats = '/chats';
+  static const String messages = '/messages';
 
 
 }
@@ -22,6 +28,16 @@ class RouteGenerator {
         initDashboard();
         return MaterialPageRoute(
           builder: (_) => DashboardView(),
+        );
+      case Routes.chats:
+        initChats();
+        return MaterialPageRoute(
+          builder: (_) => ChatsView(),
+        );
+      case Routes.messages:
+        initMessages();
+        return MaterialPageRoute(
+          builder: (_) => MessagesView(),
         );
 
 

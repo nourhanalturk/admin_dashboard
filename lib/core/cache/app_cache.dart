@@ -3,6 +3,9 @@ class CacheData {
   static String email = "";
   static String courseUid = "";
   static String instructorName = "";
+  static String chatUid = "";
+  static String userName = "";
+  static String patientName = "";
 
   static void setInstructorName({required String instName}) {
     instructorName = instName;
@@ -24,13 +27,14 @@ class CacheData {
     return email;
   }
 
-  void setCourseUid({
-    required String value,
-  }) {
-    courseUid = value;
+
+  static void setChatUid(String uid) {
+    chatUid = uid;
   }
 
-  String getCourseUid() {
-    return courseUid;
-  }
+  static String getChatUid() => chatUid;
+
+  static void setPatientName(String value) => patientName = value;
+
+  static String getPatientName() => patientName;
 }
