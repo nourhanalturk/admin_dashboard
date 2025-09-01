@@ -4,6 +4,7 @@ const String imagesPath = 'assets/images';
 class ManagerImages {
   static const String backgroundImage = '$imagesPath/bg.png';
   static const String clock = '$imagesPath/clock.svg';
+  static const String logo = '$imagesPath/logo.svg';
   static const String appointment = '$imagesPath/appointment.svg';
   static const String chat = '$imagesPath/chat.svg';
   static const String data = '$imagesPath/data.svg';

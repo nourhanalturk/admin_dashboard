@@ -29,7 +29,7 @@ class DashboardController extends GetxController {
     ),
     TabModel(
       icon: ManagerImages.clock,
-      title: ManagerStrings.editAvailableTimes,
+      title: ManagerStrings.availableTimes,
     ),
     TabModel(
       icon: ManagerImages.data,

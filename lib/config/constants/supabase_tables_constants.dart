@@ -9,5 +9,5 @@ class SupabaseTableConstants {
   static const records = 'records';
   static const String profile = 'profile';
   static const String allChats = 'all_chats';
-
+  static const String doctors = 'doctors';
 }
