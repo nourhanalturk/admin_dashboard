@@ -7,8 +7,8 @@ class ManagerColors {
   static const Color black = Colors.black;
   static const Color transparent = Colors.transparent;
 
-  static const Color primaryColor = Color(0xFF4233B6);
-  static const secondaryColor = Color(0xFF5041BC);
+  static const Color primaryColor = Color(0xFF0AB478);
+  static const secondaryColor = Color(0xFF8B94BC);
   static const greenColor = Color(0xFF6AC259);
   static const redColor = Color(0xFFE92E30);
   static const grayColor = Color(0xFFC1C1C1);

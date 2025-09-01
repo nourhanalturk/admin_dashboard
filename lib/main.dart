@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: localeSettings.defaultLocale,
-      initialRoute: Routes.dashboard,
+      initialRoute: Routes.login,
       onGenerateRoute: RouteGenerator.getRoute,
       debugShowCheckedModeBanner: dotenv.env[EnvConstants.debug].onNullBool(),
     );

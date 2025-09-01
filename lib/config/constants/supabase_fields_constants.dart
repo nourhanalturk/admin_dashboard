@@ -35,6 +35,7 @@ class SupabaseFieldsConstants {
   static const String imageUrl = 'image_url';
   static const String fullName = 'full_name';
   static const String profileImageUrl = 'profile_image_url';
+  static const String phone = 'phone';
 
 
 

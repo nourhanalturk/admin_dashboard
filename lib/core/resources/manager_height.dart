@@ -29,8 +29,10 @@ class ManagerHeight {
   static double h27 = 27.0;
   static double h28 = 28.0;
   static double h29 = 29.0;
+  static double h30 = 30.0;
   static double h35 = 35.0;
   static double h50 = 50.0;
+  static double h100 = 100.0;
 
 
 }

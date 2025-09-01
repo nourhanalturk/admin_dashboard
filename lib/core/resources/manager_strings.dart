@@ -9,6 +9,8 @@ class ManagerStrings {
 
   static String get skip => tr('skip');
 
+  static String get add => tr('add');
+
   static String get question => tr('question');
 
   static String get noContent => tr('noContent');
@@ -53,6 +55,8 @@ class ManagerStrings {
   static String get invalidEmptyEmail => tr('invalidEmptyEmail');
 
   static String get invalidEmail => tr('invalidEmail');
+
+  static String get appointments => tr('appointments');
 
   static String get doYouWantToChangeIt => tr('doYouWantToChangeIt');
 
@@ -109,7 +113,7 @@ class ManagerStrings {
 
   static String get viewAppointments => tr('viewAppointments');
 
-  static String get editAvailableTimes => tr('editAvailableTimes');
+  static String get availableTimes => tr('availableTimes');
 
   static String get patientsData => tr('patientsData');
 
@@ -123,8 +127,68 @@ class ManagerStrings {
 
   static String get noUpcomingAppointmentsYet =>
       tr('noUpcomingAppointmentsYet');
+
   static String get patientsWhoBooked => tr('patientsWhoBooked');
-  static String get patientsWithUpcomingAppointments => tr('patientsWithUpcomingAppointments');
-  static String get patientsWhoMessagedDoctor => tr('patientsWhoMessagedDoctor');
+
+  static String get patientsWithUpcomingAppointments =>
+      tr('patientsWithUpcomingAppointments');
+
+  static String get patientsWhoMessagedDoctor =>
+      tr('patientsWhoMessagedDoctor');
+
+  static String get appointmentDetails => tr('appointmentDetails');
+
+  static String get contactNumber => tr('contactNumber');
+
+  static String get status => tr('status');
+
+  static String get appointmentTime => tr('appointmentTime');
+
+  static String get addNewDate => tr('addNewDate');
+
+
+  static String get noAvailableTimes => tr('noAvailableTimes');
+
+  static String get close => tr('close');
+
+  static String get addTime => tr('addTime');
+
+  static String get enterTime => tr('enterTime');
+  static String get more => tr('more');
+
+
+  static String get addNewTime => tr('addNewTime');
+
+  static String get timeRemovedSuccessfully => tr('timeRemovedSuccessfully');
+
+  static String get errorOccurred => tr('errorOccurred');
+  static String get timeAddedSuccessfully => tr('timeAddedSuccessfully');
+  static String get confirmDeletion => tr('confirmDeletion');
+  static String get areYouSureDeleteDateAppointments => tr('areYouSureDeleteDateAppointments');
+  static String get confirm => tr('confirm');
+  static String get selectDate => tr('selectDate');
+  static String get pickDate => tr('pickDate');
+  static String get addTimes => tr('addTimes');
+  static String get save => tr('save');
+  static String get selectDateAndTime => tr('selectDateAndTime');
+  static String get manageYourAvailability => tr('manageYourAvailability');
+
+  static String get addYourFirstDate => tr('addYourFirstDate');
+  static String get times => tr('times');
+
+  static String get patientsDetails => tr('patientsDetails');
+  static String get patientName => tr('patientName');
+  static String get hereWhereAllYourPatientsDetailsWillBeDisplayed => tr('hereWhereAllYourPatientsDetailsWillBeDisplayed');
+  static String get patients => tr('patients');
+  static String get patientDetails => tr('patientDetails');
+  static String get medicalRecords => tr('medicalRecords');
+  static String get noRecordsFound => tr('noRecordsFound');
+  static String get login => tr('login');
+  static String get enterYourId => tr('enterYourId');
+  static String get enterYourPhone => tr('enterYourPhone');
+  static String get invalidPhoneOrId => tr('invalidPhoneOrId');
+
+
+
 
 }
