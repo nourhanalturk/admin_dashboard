@@ -43,6 +43,8 @@ class DashboardView extends StatelessWidget {
                   ? IconButton(
                       onPressed: () {
                         _scaffoldKey.currentState?.openDrawer();
+
+
                       },
                       icon: const Icon(
                         Icons.menu,
